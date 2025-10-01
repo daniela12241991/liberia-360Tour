@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Museo de Guanacaste</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-museoplantelatrasfrenteescalera">
+        <li class="text">MuseoPlantelAtrasFrenteEscalera</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-museoplantelatrassinem">
+        <li class="text">MuseoPlantelAtrasSinem</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-museosalidaplantel1">
+        <li class="text">MuseoSalidaPlantel1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-museobanossalida1">
+        <li class="text">MuseoBanosSalida1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-museoescaleraplantelatras">
+        <li class="text">MuseoEscaleraPlantelAtras</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-museocalabozopila7salidabanos">
+        <li class="text">MuseoCalabozoPila7SalidaBanos</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-museocalabozopila6">
+        <li class="text">MuseoCalabozoPila6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-museobanosantiguoazul3">
+        <li class="text">MuseoBanosAntiguoAzul3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-museocalabozopila2">
+        <li class="text">MuseoCalabozoPila2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-museocalabozopila4">
+        <li class="text">MuseoCalabozoPila4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-museocalabozopilacelda">
+        <li class="text">MuseoCalabozoPilaCelda</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-museocalabozopila3">
+        <li class="text">MuseoCalabozoPila3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-musecalabozopila5">
+        <li class="text">MuseCalabozoPila5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-museoescalerapila3">
+        <li class="text">MuseoEscaleraPila3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-museopasillooeste2">
+        <li class="text">MuseoPasilloOeste2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-museoescalerapila1">
+        <li class="text">MuseoEscaleraPila1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-museopilaroja">
+        <li class="text">MuseoPilaRoja</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-museocalabozopila1">
+        <li class="text">MuseoCalabozoPila1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-museoescalerapila2">
+        <li class="text">MuseoEScaleraPila2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-museopasillooesteesaclera">
+        <li class="text">MuseoPasilloOesteEsaclera</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-museoentrada4">
+        <li class="text">museoEntrada4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-museoescaleraoestecalabozo2">
+        <li class="text">museoEscaleraOesteCalabozo2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-museoescaleraoestecalabozo1">
+        <li class="text">museoEscaleraOesteCalabozo1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-museoentradaoeste1">
+        <li class="text">museoEntradaoeste1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-museoplanetelsinemoeste">
+        <li class="text">MuseoPlanetelSinemOeste</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-museobanos-antiguos3">
+        <li class="text">MuseoBanos Antiguos3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-museopasilloeste3">
+        <li class="text">MuseoPasilloEste3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-museopabellonexhibicion1">
+        <li class="text">MuseoPabellonExhibicion1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-museopabellonsinem1">
+        <li class="text">MuseoPabellonSinem1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-museoentrada3">
+        <li class="text">museoEntrada3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-museopabellonexhibicion2">
+        <li class="text">MuseoPabellonExhibicion2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-museopabellonsinem3">
+        <li class="text">MuseoPabellonSinem3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-museopabellonsinem2">
+        <li class="text">MuseoPabellonSinem2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-museobanoscarreta1">
+        <li class="text">MuseoBanosCarreta1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-museobanossinem">
+        <li class="text">MuseoBanosSinem</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-museoplantelescaleraseste">
+        <li class="text">MuseoPlantelEscalerasEste</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-museopabelloexhibicionsabanero">
+        <li class="text">MuseoPabelloExhibicionSabanero</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-museoescalerabanos">
+        <li class="text">MuseoEscaleraBanos</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-museoplantelcentroexhibicion">
+        <li class="text">MuseoPlantelcentroExhibicion</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-museopasillooeste2">
+        <li class="text">MuseoPasilloOeste2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-museocarreta">
+        <li class="text">MuseoCarreta</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-museocalabozopilaescalera">
+        <li class="text">MuseoCalabozoPilaEscalera</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-museopabellonexhibicion1">
+        <li class="text">MuseoPabellonExhibicion1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-museobanosantiguoscarreta1">
+        <li class="text">MuseoBanosAntiguosCarreta1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-museoentrada2">
+        <li class="text">museoEntrada2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-museoentrada1">
+        <li class="text">museoEntrada1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-museopasilloeste1">
+        <li class="text">MuseoPasilloEste1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-museobanoscarreta2">
+        <li class="text">MuseoBanosCarreta2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-museobanosantiguoscarreta2">
+        <li class="text">MuseoBanosAntiguosCarreta2</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
